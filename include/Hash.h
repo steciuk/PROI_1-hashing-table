@@ -1,3 +1,4 @@
+/* Adam Steciuk 300263 lab1 */
 #ifndef HASH_H_INCLUDED
 #define HASH_H_INCLUDED
 

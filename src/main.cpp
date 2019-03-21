@@ -1,8 +1,6 @@
+/* Adam Steciuk 300263 lab1 */
 #include "Hash.h"
 #include <iostream>
-
-// czy trzeba this->
-// czy trzeba konstruktorem
 
 using namespace std;
 
@@ -17,7 +15,7 @@ int main()
         cout << endl
         << "0) Exit" << endl
         << "1) Add one number" << endl
-        << "2) Add several numbers" << endl
+        << "2) Add multiple numbers" << endl
         << "3) Change modulo" << endl
         << "4) View all hashes" << endl
         << "5) Remove oldest instance of given number" << endl

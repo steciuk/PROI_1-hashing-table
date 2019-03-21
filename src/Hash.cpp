@@ -1,3 +1,4 @@
+/* Adam Steciuk 300263 lab1 */
 #include "Hash.h"
 #include <iostream>
 
