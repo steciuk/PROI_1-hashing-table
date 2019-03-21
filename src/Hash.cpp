@@ -1,6 +1,7 @@
 /* Adam Steciuk 300263 lab1 */
 #include "Hash.h"
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
@@ -122,17 +123,19 @@ void Hash::searchForNumber()
     cin >> numToSearch;
     numToSearchHash = Hash::hashNumber(numToSearch);
 
-    for (size_t i = 0; i < hashList.size(); i++)
-    {
-        if (hashList[i] == numToSearchHash)
-        {
-            howMany++;
-        }
-    }
+    howMany = count(hashList.begin(), hashList.end(), numToSearchHash);
+
+//    for (size_t i = 0; i < hashList.size(); i++)
+//    {
+//        if (hashList[i] == numToSearchHash)
+//        {
+//            howMany++;
+//        }
+//    }
 
     if(howMany != 0)
     {
-        cout << howMany << "instances of given number found" << endl;
+        cout << howMany << " instances of given number found" << endl;
     }else
     {
         cout << "No instances of given number found" << endl;

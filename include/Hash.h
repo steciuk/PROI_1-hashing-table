@@ -10,13 +10,14 @@ class Hash
         std::vector < int > hashList;
         int mod;
 
+        int hashNumber(int num);
+
     public:
         Hash();
         void addNumber();
         void addNumber(int howManyToAdd);
         void changeMod();
         void viewHashes();
-        int hashNumber(int num);
         void removeGivenNumber();
         void removeGivenNumber(int howManyToDel);
         void searchForNumber();
