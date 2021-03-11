@@ -1,2 +1,2 @@
 # PROI - Lab 1
-Simple c++ hashing list console application
+Simple c++ hashing table console application
