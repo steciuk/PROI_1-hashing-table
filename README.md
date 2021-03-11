@@ -1,2 +1,2 @@
-# lab1
-vector hashów
+# PROI - Lab 1
+Simple c++ hashing list console application
